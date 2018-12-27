@@ -43,6 +43,7 @@ a{
   height: 92.5vh;
   line-height: 2;
   background-color: #45eba5;
+  overflow: hidden;
 }
 
 .middle-container {
