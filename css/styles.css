@@ -30,6 +30,9 @@ a{
   text-decoration: none;
   color: #11999E;
 }
+a:hover{
+  color: #EAF6F6;
+}
 .sub {
   position: relative;
   top: 9vh;
@@ -97,6 +100,7 @@ a{
   width: 33vw;
   margin: auto;
   padding: 4vh 0;
+  line-height: 2;
 }
 .hey1{
   width: 33vw;
@@ -142,7 +146,7 @@ a{
   -webkit-box-shadow: 0px 1px 3px #666666;
   -moz-box-shadow: 0px 1px 3px #666666;
   box-shadow: 0px 1px 3px #666666;
-  font-family: Arial;
+  font-family: 'ZCOOL XiaoWei', serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
