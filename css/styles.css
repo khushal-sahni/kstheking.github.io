@@ -41,11 +41,16 @@ a:hover{
 
 .top-container {
   position: relative;
-  padding-top: 21vh;
+  padding-top: 17vh;
   height: 100vh;
   line-height: 2;
   background-color: #45eba5;
   overflow: hidden;
+}
+@media (max-width: 767.98px) {
+  .top-container{
+    padding-top: 32vh;
+  }
 }
 .middle-container {
   padding-top: 7vh;
