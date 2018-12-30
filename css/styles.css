@@ -47,7 +47,7 @@ a:hover{
   background-color: #45eba5;
   overflow: hidden;
 }
-@media (max-width: 767.98px) {
+@media screen and (orientation: portrait) {
   .top-container{
     padding-top: 32vh;
   }
