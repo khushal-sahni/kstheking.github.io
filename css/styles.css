@@ -164,7 +164,28 @@ a:hover{
 .bottom-line{
   color: #EAF6F6;
 }
-/*.cls{
-  clear: right;
+@keyframes left {
+  0% {right: 150px;}
+  20% {transform: translate3d(calc(50vw - 300px),200px,0px);}
+  40% {transform: translate3d(calc(100vw - 300px),100px,0px);}
+  100% {right: 150px; }
 }
-*/
+@keyframes right {
+  0% {left: 150px; }
+  20% {transform: translate3d(calc(-50vw + 300px),-200px,0px);}
+  40% {transform: translate3d(calc(-100vw + 300px),-100px,0px);}
+  100% {left: 150px}
+}
+.top-cloud{
+  position:relative;
+  animation-name: left;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+.bottom-cloud{
+  position: relative;
+  animation-name: right;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
