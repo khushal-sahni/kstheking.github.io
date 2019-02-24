@@ -48,6 +48,9 @@ a:hover{
   overflow: hidden;
 }
 @media screen and (orientation: portrait) {
+  body{
+    font-size: 2rem;
+  }
   .top-container{
     padding-top: 32vh;
   }
