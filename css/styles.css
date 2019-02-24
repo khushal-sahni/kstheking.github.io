@@ -47,11 +47,11 @@ a:hover{
   background-color: #45eba5;
   overflow: hidden;
 }
-@media screen and (orientation: portrait) {
+/* @media screen and (orientation: portrait) {
   .top-container{
     padding-top: 32vh;
   }
-}
+} */
 .middle-container {
   padding-top: 7vh;
   padding-bottom: 9vh;
@@ -188,4 +188,3 @@ a:hover{
   animation-duration: 60s;
   animation-iteration-count: infinite;
 }
-
