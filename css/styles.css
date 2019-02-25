@@ -177,10 +177,10 @@ a:hover{
 @media screen and (orientation: landscape) {
   .bottom-div{
     margin: 0 auto 4vh;
+    width: 21vw;
   }
 }
 .bottom-div{
-  width: 21vw;
   display: flex;
   justify-content: space-between;
 }
