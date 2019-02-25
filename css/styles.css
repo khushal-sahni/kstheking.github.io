@@ -50,6 +50,8 @@ a:hover{
 @media screen and (orientation: portrait) {
   body{
     font-size: 2rem;
+    margin-left: -30px;
+    margin-right: -30px;
   }
   .top-container{
     padding-top: 32vh;
