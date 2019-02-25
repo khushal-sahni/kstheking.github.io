@@ -64,7 +64,16 @@ a:hover{
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 5vh 30vw;
+}
+@media screen and (orientation: landscape) {
+  .bottom-container{
+    padding: 5vh 30vw;
+  }
+}
+@media screen and (orientation: portrait) {
+  .bottom-container{
+    padding: 5vh 2vw;
+  }
 }
 .mountain {
   position: absolute;
@@ -162,7 +171,7 @@ a:hover{
 }
 @media screen and (orientation: portrait) {
   .bottom-div{
-    margin: 0 -30px 4vh;
+    margin: 0 auto 4vh;
   }
 }
 @media screen and (orientation: landscape) {
