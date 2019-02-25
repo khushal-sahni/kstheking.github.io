@@ -162,7 +162,7 @@ a:hover{
 }
 .bottom-div{
   width: 21vw;
-  margin: 0 auto 4vh;
+  margin: 0 -30px 4vh;
   display: flex;
   justify-content: space-between;
 }
