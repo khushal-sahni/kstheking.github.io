@@ -172,6 +172,7 @@ a:hover{
 @media screen and (orientation: portrait) {
   .bottom-div{
     margin: 0 auto 4vh;
+    width: 70vw;
   }
 }
 @media screen and (orientation: landscape) {
